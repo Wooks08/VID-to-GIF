@@ -6,6 +6,13 @@ from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5 import uic, QtCore, QtGui, QtWidgets
 
+os.system('cls')
+print("INSTALOWANIE POTRZEBNYCH PAKIETÓW")
+print()
+print('========================================')
+os.system('pip install moviepy')
+os.system('pip install PyQt5')
+
 app = QApplication(sys.argv)
 
 class ImgComp(QMainWindow):
